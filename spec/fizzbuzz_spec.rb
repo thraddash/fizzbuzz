@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
+
 require 'minitest/autorun'
-require_relative 'fizzbuzz'
+require './lib/fizzbuzz'
+#require_relative 'fizzbuzz'
 
 describe "FizzBuzz" do
 
