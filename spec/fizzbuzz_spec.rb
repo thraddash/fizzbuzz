@@ -9,7 +9,7 @@ describe FizzBuzz do
       expect(result).to eq("Fizz")
     end
     it '5 print Buzz' do
-      result = fizz_buzz.divisible_by(5)
+      result = fizz_buzz.divisible_by(25)
       expect(result).to eq("Buzz")
     end
     it '15 print FizzBuzz' do
