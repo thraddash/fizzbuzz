@@ -18,7 +18,7 @@ describe FizzBuzz do
     end
     it 'any other numbers' do
       result = fizz_buzz.divisible_by(1)
-      expect(result).to eq(12)
+      expect(result).to eq(1)
     end
   end
 end
